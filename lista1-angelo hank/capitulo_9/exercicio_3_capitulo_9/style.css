@@ -1,0 +1,17 @@
+.main {
+    background-color: red;
+    height: 700px;
+    width: 50%;
+}
+
+.second {
+    background-color: blue;
+    height: 50%;
+    width: 50%;
+}
+
+.small {
+    background-color: yellow;
+    height: 50%;
+    width: 50%;
+}

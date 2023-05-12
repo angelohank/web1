@@ -1,0 +1,9 @@
+O que acontece quando se existem dois elementos na mesma linha, sendo que a
+soma da largura desses componentes (width, margin, border e padding) ultrapassam
+100%?
+
+Resposta: 
+No HTML puro, quando a soma da largura dos elementos na mesma linha ultrapassa 100%, os elementos vão "quebrar" para a próxima linha. 
+Isso ocorre porque o padrão do box model do HTML considera que o valor da largura definida para um elemento se refere apenas ao 
+conteúdo interno do elemento, e não inclui o padding, a borda e a margem. Então, quando essas propriedades são adicionadas à largura, 
+a soma total ultrapassa os 100% da largura do elemento pai, fazendo com que os elementos sejam posicionados na linha abaixo.

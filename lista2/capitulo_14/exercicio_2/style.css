@@ -1,0 +1,38 @@
+.row {
+    height: 300px;
+}
+
+.row > div {
+    display: grid;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+#a {
+    justify-content: center;
+    align-items: center;
+}
+
+#c {
+    align-items: end;
+    justify-content: center;
+}
+
+#d {
+    align-items: start;
+    justify-content: start;
+}
+
+#e {
+    padding-top: 150px;
+    justify-content: end;
+}
+
+#f {
+    align-items: center;
+}
+
+#g {
+    justify-content: center;
+    height: 600px;
+}

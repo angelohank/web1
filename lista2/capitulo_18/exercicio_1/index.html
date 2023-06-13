@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Exercicio 1 - capitulo 18</title>
+</head>
+<body>
+
+    <main>
+        <div id="container-img-principal">
+            <img id="img-principal" src="./img/img-1.jpg">
+        </div>
+    </main>
+
+    <div id="seleciona-img">
+
+        <div class="container-img" onclick="changeImg('./img/img-1.jpg')">
+            <img src="./img/img-1.jpg" id="img-1">
+        </div>
+
+        <div class="container-img" onclick="changeImg('./img/img-2.jpg')">
+            <img src="./img/img-2.jpg" id="img-2">
+        </div>
+
+        <div class="container-img" onclick="changeImg('./img/img-3.jpg')">
+            <img src="./img/img-3.jpg" id="img-3">
+        </div>
+
+        <div class="container-img" onclick="changeImg('./img/img-4.jpg')">
+            <img src="./img/img-4.jpg" id="img-4">
+        </div>
+    </div>
+
+    <footer>
+        <script src="./control.js"></script>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,129 @@
+body {
+    background-color: #002361;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    max-width: 100px;
+    max-height: 100px;
+    padding: 0 200px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Arial';
+    color: #FFFF;
+    margin-right: 25px;
+}
+
+a:hover {
+    color: #7f8dd8;
+}
+
+#nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#currentDirectory {
+    color: #7f8dd8;
+}
+
+main {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    background-color: #5569b0;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    width: 90%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.card > #description {
+    width: 40%;
+    padding: 15px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card > #description > .title {
+    font-family: 'Archivo';
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 15px; 
+}
+
+.card > #description > p {
+    font-family: 'Archivo';
+    font-weight: bold;
+    font-size: 12px;
+    color: #6A6180;
+    line-height: 1.5;
+}
+
+.card > #requirements {
+    width: 30%;
+    padding: 15px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card > #requirements > ul > li {
+    margin-top: 10px;
+    font-family: 'Archivo';
+    font-size: 12px;
+    color: #6A6180;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+#submit {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+    margin-right: 25px;
+    width: 30%;
+}
+
+.button-card {
+    height: 35%;
+    width: 45%;
+    border-radius: 8px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    border-style: none;
+    font-size: 70%;
+    background-color: #002361;
+}

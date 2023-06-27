@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/orcamento.css">
+    <title>AKR - Desenvolvedores Associados</title>
+</head>
+<body>
+    
+    <header>
+        <img id="logo" src="../resources/img/logo-semfundo.png">
+
+        <div class="col-12">
+            <nav id="nav-header" class="navbar">
+                <ul>
+                    <li><a href="../pages/home.html">Home</a></li>
+                    <li><a href="../pages/servicos.html">Serviços</a></li>
+                    <li><a href="#">Trabalhe Conosco</a></li>
+                    <li><a href="../pages/orcamento.html" id="currentDirectory">Orçamento</a></li>
+                    <li><a href="#">Cases de sucesso</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h2>Deixe seu email e sua dúvida e entraremos em contato o mais rápido possível</h2>
+        <input type="email" placeholder="email@servico.com">
+
+        <textarea placeholder="Deixe sua dúvida o mais detalhada possível"></textarea>
+
+        <button id="btnEnviar">
+            Enviar
+        </button>
+    </main>
+
+    <footer>
+        <script src="../controller/enviaEmail.js"></script>
+    </footer>
+</body>
+</html>
